@@ -1,0 +1,18 @@
+<mj-section background-color="#fcfcfc">
+  <mj-column>
+    <mj-text line-height="0px" color="#737373" font-size="15px">The Friends and Guests Team.</mj-text>
+    <mj-divider border-width="1px" border-style="solid" border-color="#979797" />
+    <mj-social
+      mode="horizontal"
+      display="twitter facebook"
+      facebook-content=""
+      facebook-href=""
+      twitter-content=""
+      twitter-href=""
+      />
+    <mj-text align="center" line-height="7px">Copyright © <%= Time.now.year %> Friends and Guests, All rights reserved.</mj-text>
+    <mj-text align="center" line-height="7px" font-weight="bold">Our mailing address is:</mj-text>
+    <mj-text align="center" line-height="7px">141, Makahiki Street, Paia, HI 96779</mj-text>
+    <mj-text align="center" line-height="7px">Don’t want to get emails like this? <a href="#">Email settings.</a></mj-text>
+  </mj-column>
+</mj-section>

@@ -1,0 +1,6 @@
+<mj-section background-color="#131313">
+  <mj-column>
+    <mj-image align="left" width="200" src="<%= image_path('email/fng-header-logo.png') %>" alt="Friends and Guests logo" />
+  </mj-column>
+  <mj-column></mj-column>
+</mj-section>

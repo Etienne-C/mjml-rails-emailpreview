@@ -1,0 +1,21 @@
+<mjml>
+  <mj-body>
+    <mj-container background-color="#ffffff">
+      <%= render :partial => 'header', :formats => [:html] %>
+      <mj-section background-color="#fcfcfc">
+        <mj-column>
+          <mj-text font-size="24px" color="#333333">We're glad you're here!</mj-text>
+          <mj-text font-size="16px" color="#333333">You're so close to use all of our features! You just need to confirm your account.</mj-text>
+          <mj-button
+            background-color="#2A9990"
+            border-radius="3px"
+            vertical-align="middle"
+            font-size="16px">
+            Confirm Account
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <%= render :partial => 'footer', :formats => [:html] %>
+    </mj-container>
+  </mj-body>
+</mjml>
